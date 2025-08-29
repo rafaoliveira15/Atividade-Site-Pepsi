@@ -3,8 +3,7 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #f5f5f5;
   background-color: black;
-  /* background-image: url("pepsi2.jpg");  */
-  
+ 
 }
  img{
     
@@ -93,13 +92,27 @@ body {
 main{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #fff;
     
     
 }
 
 .latinhas{
-  justify-content: center;
+  justify-content: space-around;
   display: flex;
+  
+}
+
+.produtos{
+  justify-content: space-around;
+  width: 95%;
+  text-wrap: wrap;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
 }
 
 .site-footer {
@@ -177,4 +190,11 @@ main{
   .footer-links {
     justify-content: center;
   }
+
+  /* .produtos :nth-child(2){
+    margin-left: -150px;
+  } */
+  /* .produtos :nth-child(3){
+    margin-left: -120px;
+  } */
 
