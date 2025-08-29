@@ -40,6 +40,7 @@ Implementação de navegação entre páginas e integração de ícones de redes
 
 
 🖼️VS CODE:
+
 <img width="300" height="300" alt="Captura de tela 2025-08-29 111907" src="https://github.com/user-attachments/assets/3b09efd6-3863-41b0-ae9a-918b42c05f0a" />
 <img width="300" height="300" alt="Captura de tela 2025-08-29 111943" src="https://github.com/user-attachments/assets/cc5e16d5-9f2b-48b6-ba16-3a712004325e" />
 <img width="300" height="300" alt="Captura de tela 2025-08-29 112001" src="https://github.com/user-attachments/assets/7be13ea1-13a1-4780-aad5-c0462d75fe96" />
