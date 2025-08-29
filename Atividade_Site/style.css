@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #f5f5f5;
+  background-color: black;
+  /* background-image: url("pepsi2.jpg");  */
+  
+}
+ img{
+    
+    margin-top: 25px;
+    margin-left: 25px;
+ }
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  z-index: 100;
+}
+
+/* .menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+} */
+
+.logo img {
+  height: 40px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #3300ff;
+}
+
+.icons-social a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.icons-social a:hover{
+  color: #2b00ff;
+}
+
+
+.hero {
+  margin-top: 100px;
+  text-align: center;
+  padding: 100px 20px;
+  
+  
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.latinhas{
+  justify-content: center;
+  display: flex;
+}
+
+.site-footer {
+  border-bottom: 2px solid #fff;
+  background-color: black;
+  color: #ffffff;
+  padding: 40px 16px 20px;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+}
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  
+}
+.footer-brand span {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2b00ff;
+  
+ 
+}
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+   
+}
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+.footer-nav a:hover {
+  color: #2b00ff;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}
+.footer-social a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-social a:hover {
+  color: #2b00ff;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  opacity: 0.8;
+  color: white;
+}
+
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-links {
+    justify-content: center;
+  }
+
